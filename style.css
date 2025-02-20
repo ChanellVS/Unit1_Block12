@@ -1,0 +1,13 @@
+html{
+    background-color: rgb(205, 236, 214);
+}
+
+header{
+    background-color: rgb(61, 84, 69);
+    display: flex;
+    justify-content:flex-end;
+}
+
+.title{
+    
+}
