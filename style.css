@@ -1,13 +1,57 @@
 html{
-    background-color: rgb(205, 236, 214);
+    background-image: linear-gradient(to bottom right, rgb(232, 215, 194), rgb(191, 228, 191));
+    color: rgb(49, 62, 49) ;
 }
-
 header{
-    background-color: rgb(61, 84, 69);
-    display: flex;
-    justify-content:flex-end;
+    background-image: linear-gradient(to right bottom, rgb(232, 215, 194), rgb(191, 228, 191));
 }
 
-.title{
-    
+h1{
+    margin: 0px;
+
 }
+
+body{
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+section{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 1px solid rgb(186, 186, 186);
+    display: block;
+}
+
+img{
+    max-width: 350px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, rgb(232, 215, 194), rgb(191, 228, 191));
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(49, 62, 49);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-image: linear-gradient( rgb(232, 215, 194), rgb(191, 228, 191));
+    border: 1px solid rgb(186, 186, 186);
+  }
