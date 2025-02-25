@@ -68,3 +68,8 @@ ul {
      margin-inline: 15%;
 
   }
+
+  div{
+    display:grid;
+    justify-content: center;
+  }
